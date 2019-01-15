@@ -5,9 +5,9 @@
     "scripts": {
         "build": "webpack --config webpack.config.js"
     },
-    "dependencies" : {
-        "js-wrapper-lib" : "0.0.1 - 1.0.0"
-    }
+    "dependencies": {
+        "js-wrapper-lib": "0.0.1 - 1.0.0"
+    },
     "devDependencies": {
         "webpack": "^4.28.4",
         "webpack-cli": "^3.2.1"
