@@ -1,0 +1,12 @@
+{
+    "name": "webpack-test",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
+    },
+    "devDependencies": {
+        "webpack": "^4.28.4",
+        "webpack-cli": "^3.2.1"
+    }
+}
