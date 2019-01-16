@@ -6,7 +6,7 @@
         "build": "webpack --config webpack.config.js"
     },
     "dependencies": {
-        "js-wrapper-lib": "0.0.3"
+        "js-wrapper-lib": "0.0.4"
     },
     "devDependencies": {
         "webpack": "^4.28.4",
