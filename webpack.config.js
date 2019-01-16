@@ -2,10 +2,16 @@
 
 module.exports = {
   mode: 'development',
-  entry: './js/main.js',
+  entry: {
+      'test1': './js/main.js'
+  },
   output: {
 //    path: path.resolve(__dirname, 'dist'),
-    filename: 'build.js'
+    filename: '[name].js'
+  },
+  
+  externals: { // внешние библиотеки
+//    "js-wrapper-lib": "jswl"  
   },
   watch: true,
   watchOptions: {
