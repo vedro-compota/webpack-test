@@ -7,11 +7,14 @@ module.exports = {
   },
   output: {
 //    path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'MyLibrary',
+    libraryExport: 'default',
+    libraryTarget: 'umd'
   },
   
   externals: { // внешние библиотеки
-//    "js-wrapper-lib": "jswl"  
+    //"js-wrapper-lib": "jswl"  
   },
   watch: true,
   watchOptions: {
