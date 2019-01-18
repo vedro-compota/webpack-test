@@ -7,7 +7,7 @@
     "build-no-jswl": "webpack --config webpack-no-jswl.config.js"
   },
   "dependencies": {
-    "js-wrapper-lib": "0.0.4"
+    "js-wrapper-lib": "0.0.5"
   },
   "devDependencies": {
     "webpack": "^4.28.4",

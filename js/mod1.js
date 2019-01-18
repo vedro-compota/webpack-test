@@ -1,6 +1,6 @@
 export {hello1};
 import {helloCommon} from "./common";
-import {jswl} from "js-wrapper-lib";
+import jswl from "js-wrapper-lib";
 
 var hello1 = function()
 {
