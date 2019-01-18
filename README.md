@@ -9,4 +9,4 @@ npm run-script build
 
 ## Материалы
 
-Справочник по webpack: http://fkn.ktu10.com/?q=node/10624
+* Справочник по **webpack**: http://fkn.ktu10.com/?q=node/10624

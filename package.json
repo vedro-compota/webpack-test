@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "build-no-jswl": "webpack --config webpack-no-jswl.config.js"
   },
   "dependencies": {
     "js-wrapper-lib": "0.0.4"
